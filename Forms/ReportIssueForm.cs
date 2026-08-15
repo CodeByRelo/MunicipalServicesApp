@@ -1,6 +1,6 @@
 ﻿using MunicipalServicesApp.Models;
 using System;
-using System.Collections.Generic;
+using MunicipalServicesApp.Data;
 using System.IO;
 using System.Windows.Forms;
 
@@ -8,7 +8,10 @@ namespace MunicipalServicesApp.Forms
 {
     public partial class ReportIssueForm : Form
     {
-        private readonly List<Issue> issues = new List<Issue>();
+        // ==============================
+        // FORM DATA
+        // ==============================
+
         private string attachmentPath = string.Empty;
 
         public ReportIssueForm()
@@ -18,6 +21,10 @@ namespace MunicipalServicesApp.Forms
             LoadCategories();
             UpdateProgress();
         }
+
+        // ==============================
+        // CATEGORY SETUP
+        // ==============================
 
         private void LoadCategories()
         {
@@ -30,6 +37,10 @@ namespace MunicipalServicesApp.Forms
 
             cmbCategory.SelectedIndex = -1;
         }
+
+        // ==============================
+        // FORM PROGRESS
+        // ==============================
 
         private void txtLocation_TextChanged(object sender, EventArgs e)
         {
@@ -81,6 +92,10 @@ namespace MunicipalServicesApp.Forms
             }
         }
 
+        // ==============================
+        // FILE ATTACHMENT
+        // ==============================
+
         private void btnAttach_Click(object sender, EventArgs e)
         {
             using (OpenFileDialog dialog = new OpenFileDialog())
@@ -98,6 +113,10 @@ namespace MunicipalServicesApp.Forms
                 }
             }
         }
+
+        // ==============================
+        // ISSUE SUBMISSION
+        // ==============================
 
         private void btnSubmit_Click(object sender, EventArgs e)
         {
@@ -139,7 +158,7 @@ namespace MunicipalServicesApp.Forms
 
             Issue issue = new Issue
             {
-                Id = issues.Count + 1,
+                Id = IssueRepository.Issues.Count + 1,
                 Location = txtLocation.Text.Trim(),
                 Category = cmbCategory.SelectedItem.ToString(),
                 Description = rtbDescription.Text.Trim(),
@@ -147,7 +166,7 @@ namespace MunicipalServicesApp.Forms
                 DateReported = DateTime.Now
             };
 
-            issues.Add(issue);
+            IssueRepository.Issues.Add(issue);
 
             MessageBox.Show(
                 "Your issue has been submitted successfully!\n\n" +
@@ -158,6 +177,10 @@ namespace MunicipalServicesApp.Forms
 
             ClearForm();
         }
+
+        // ==============================
+        // CLEAR FORM
+        // ==============================
 
         private void ClearForm()
         {

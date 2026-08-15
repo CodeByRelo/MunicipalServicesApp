@@ -42,19 +42,19 @@
             this.txtLocation = new System.Windows.Forms.TextBox();
             this.cmbCategory = new System.Windows.Forms.ComboBox();
             this.rtbDescription = new System.Windows.Forms.RichTextBox();
+            this.pnlAttachment = new System.Windows.Forms.Panel();
+            this.lblfile = new System.Windows.Forms.Label();
+            this.btnAttach = new System.Windows.Forms.Button();
             this.pnlSubmit = new System.Windows.Forms.Panel();
             this.lblProgress = new System.Windows.Forms.Label();
             this.progressReport = new System.Windows.Forms.ProgressBar();
             this.btnSubmit = new System.Windows.Forms.Button();
-            this.pnlAttachment = new System.Windows.Forms.Panel();
-            this.btnAttach = new System.Windows.Forms.Button();
-            this.lblfile = new System.Windows.Forms.Label();
             this.pnlContent.SuspendLayout();
             this.tblReportLayout.SuspendLayout();
             this.pnlReportHeader.SuspendLayout();
             this.tblReportForm.SuspendLayout();
-            this.pnlSubmit.SuspendLayout();
             this.pnlAttachment.SuspendLayout();
+            this.pnlSubmit.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlContent
@@ -238,6 +238,41 @@
             this.rtbDescription.Text = "";
             this.rtbDescription.TextChanged += new System.EventHandler(this.rtbDescription_TextChanged);
             // 
+            // pnlAttachment
+            // 
+            this.pnlAttachment.Controls.Add(this.lblfile);
+            this.pnlAttachment.Controls.Add(this.btnAttach);
+            this.pnlAttachment.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlAttachment.Location = new System.Drawing.Point(103, 225);
+            this.pnlAttachment.Name = "pnlAttachment";
+            this.pnlAttachment.Size = new System.Drawing.Size(712, 67);
+            this.pnlAttachment.TabIndex = 7;
+            // 
+            // lblfile
+            // 
+            this.lblfile.AutoSize = true;
+            this.lblfile.Location = new System.Drawing.Point(4, 47);
+            this.lblfile.Name = "lblfile";
+            this.lblfile.Size = new System.Drawing.Size(82, 13);
+            this.lblfile.TabIndex = 9;
+            this.lblfile.Text = "No file attached";
+            // 
+            // btnAttach
+            // 
+            this.btnAttach.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
+            this.btnAttach.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAttach.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnAttach.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAttach.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAttach.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
+            this.btnAttach.Location = new System.Drawing.Point(0, 0);
+            this.btnAttach.Name = "btnAttach";
+            this.btnAttach.Size = new System.Drawing.Size(712, 40);
+            this.btnAttach.TabIndex = 8;
+            this.btnAttach.Text = "Attach Image / Document";
+            this.btnAttach.UseVisualStyleBackColor = false;
+            this.btnAttach.Click += new System.EventHandler(this.btnAttach_Click);
+            // 
             // pnlSubmit
             // 
             this.pnlSubmit.Controls.Add(this.lblProgress);
@@ -287,41 +322,6 @@
             this.btnSubmit.UseVisualStyleBackColor = false;
             this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
-            // pnlAttachment
-            // 
-            this.pnlAttachment.Controls.Add(this.lblfile);
-            this.pnlAttachment.Controls.Add(this.btnAttach);
-            this.pnlAttachment.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlAttachment.Location = new System.Drawing.Point(103, 225);
-            this.pnlAttachment.Name = "pnlAttachment";
-            this.pnlAttachment.Size = new System.Drawing.Size(712, 67);
-            this.pnlAttachment.TabIndex = 7;
-            // 
-            // btnAttach
-            // 
-            this.btnAttach.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
-            this.btnAttach.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAttach.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnAttach.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAttach.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAttach.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.btnAttach.Location = new System.Drawing.Point(0, 0);
-            this.btnAttach.Name = "btnAttach";
-            this.btnAttach.Size = new System.Drawing.Size(712, 40);
-            this.btnAttach.TabIndex = 8;
-            this.btnAttach.Text = "Attach Image / Document";
-            this.btnAttach.UseVisualStyleBackColor = false;
-            this.btnAttach.Click += new System.EventHandler(this.btnAttach_Click);
-            // 
-            // lblfile
-            // 
-            this.lblfile.AutoSize = true;
-            this.lblfile.Location = new System.Drawing.Point(4, 47);
-            this.lblfile.Name = "lblfile";
-            this.lblfile.Size = new System.Drawing.Size(82, 13);
-            this.lblfile.TabIndex = 9;
-            this.lblfile.Text = "No file attached";
-            // 
             // ReportIssueForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
@@ -340,10 +340,10 @@
             this.pnlReportHeader.ResumeLayout(false);
             this.tblReportForm.ResumeLayout(false);
             this.tblReportForm.PerformLayout();
-            this.pnlSubmit.ResumeLayout(false);
-            this.pnlSubmit.PerformLayout();
             this.pnlAttachment.ResumeLayout(false);
             this.pnlAttachment.PerformLayout();
+            this.pnlSubmit.ResumeLayout(false);
+            this.pnlSubmit.PerformLayout();
             this.ResumeLayout(false);
 
         }

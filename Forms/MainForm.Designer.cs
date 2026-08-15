@@ -40,7 +40,7 @@
             this.btnRequestStatus = new System.Windows.Forms.Button();
             this.lblVersion = new System.Windows.Forms.Label();
             this.pnlContent = new System.Windows.Forms.Panel();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.tblDashboard = new System.Windows.Forms.TableLayoutPanel();
             this.pnlHeader = new System.Windows.Forms.Panel();
             this.lblSubtitle = new System.Windows.Forms.Label();
             this.lblWelcome = new System.Windows.Forms.Label();
@@ -63,18 +63,24 @@
             this.lblQuickReportSub = new System.Windows.Forms.Label();
             this.lblQuickReport = new System.Windows.Forms.Label();
             this.lblQuickReportTag = new System.Windows.Forms.Label();
+            this.pnlRecentReports = new System.Windows.Forms.Panel();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.lblRecentReports = new System.Windows.Forms.Label();
+            this.flpRecentReports = new System.Windows.Forms.FlowLayoutPanel();
             this.pnlSidebar.SuspendLayout();
             this.tblSidebar.SuspendLayout();
             this.pnlBrand.SuspendLayout();
             this.flpNavigation.SuspendLayout();
             this.pnlContent.SuspendLayout();
-            this.tableLayoutPanel1.SuspendLayout();
+            this.tblDashboard.SuspendLayout();
             this.pnlHeader.SuspendLayout();
             this.pnlHero.SuspendLayout();
             this.tblQuickAccess.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.pnlQuickReport.SuspendLayout();
+            this.pnlRecentReports.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlSidebar
@@ -251,7 +257,7 @@
             // pnlContent
             // 
             this.pnlContent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(242)))));
-            this.pnlContent.Controls.Add(this.tableLayoutPanel1);
+            this.pnlContent.Controls.Add(this.tblDashboard);
             this.pnlContent.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlContent.Location = new System.Drawing.Point(230, 0);
             this.pnlContent.Name = "pnlContent";
@@ -259,27 +265,28 @@
             this.pnlContent.Size = new System.Drawing.Size(894, 711);
             this.pnlContent.TabIndex = 1;
             // 
-            // tableLayoutPanel1
+            // tblDashboard
             // 
-            this.tableLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
-            this.tableLayoutPanel1.ColumnCount = 1;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Controls.Add(this.pnlHeader, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.pnlHero, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.lblQuickAccess, 0, 2);
-            this.tableLayoutPanel1.Controls.Add(this.tblQuickAccess, 0, 3);
-            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(35, 30);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 5;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 80F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 130F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 45F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 80F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(824, 651);
-            this.tableLayoutPanel1.TabIndex = 0;
+            this.tblDashboard.BackColor = System.Drawing.Color.Transparent;
+            this.tblDashboard.ColumnCount = 1;
+            this.tblDashboard.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tblDashboard.Controls.Add(this.pnlHeader, 0, 0);
+            this.tblDashboard.Controls.Add(this.pnlHero, 0, 1);
+            this.tblDashboard.Controls.Add(this.lblQuickAccess, 0, 2);
+            this.tblDashboard.Controls.Add(this.tblQuickAccess, 0, 3);
+            this.tblDashboard.Controls.Add(this.pnlRecentReports, 0, 4);
+            this.tblDashboard.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tblDashboard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.tblDashboard.Location = new System.Drawing.Point(35, 30);
+            this.tblDashboard.Name = "tblDashboard";
+            this.tblDashboard.RowCount = 5;
+            this.tblDashboard.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 80F));
+            this.tblDashboard.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 130F));
+            this.tblDashboard.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 45F));
+            this.tblDashboard.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 80F));
+            this.tblDashboard.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tblDashboard.Size = new System.Drawing.Size(824, 651);
+            this.tblDashboard.TabIndex = 0;
             // 
             // pnlHeader
             // 
@@ -583,6 +590,53 @@
             this.lblQuickReportTag.Text = "QUICK ACCESS";
             this.lblQuickReportTag.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             // 
+            // pnlRecentReports
+            // 
+            this.pnlRecentReports.Controls.Add(this.tableLayoutPanel1);
+            this.pnlRecentReports.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlRecentReports.Location = new System.Drawing.Point(3, 338);
+            this.pnlRecentReports.Name = "pnlRecentReports";
+            this.pnlRecentReports.Size = new System.Drawing.Size(818, 310);
+            this.pnlRecentReports.TabIndex = 4;
+            // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.ColumnCount = 1;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Controls.Add(this.lblRecentReports, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.flpRecentReports, 0, 1);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 2;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(818, 310);
+            this.tableLayoutPanel1.TabIndex = 0;
+            // 
+            // lblRecentReports
+            // 
+            this.lblRecentReports.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblRecentReports.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRecentReports.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
+            this.lblRecentReports.Location = new System.Drawing.Point(3, 0);
+            this.lblRecentReports.Name = "lblRecentReports";
+            this.lblRecentReports.Size = new System.Drawing.Size(812, 45);
+            this.lblRecentReports.TabIndex = 0;
+            this.lblRecentReports.Text = "RECENT REPORTS";
+            this.lblRecentReports.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // flpRecentReports
+            // 
+            this.flpRecentReports.AutoScroll = true;
+            this.flpRecentReports.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flpRecentReports.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
+            this.flpRecentReports.Location = new System.Drawing.Point(3, 48);
+            this.flpRecentReports.Name = "flpRecentReports";
+            this.flpRecentReports.Size = new System.Drawing.Size(812, 259);
+            this.flpRecentReports.TabIndex = 1;
+            this.flpRecentReports.WrapContents = false;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -602,8 +656,8 @@
             this.pnlBrand.ResumeLayout(false);
             this.flpNavigation.ResumeLayout(false);
             this.pnlContent.ResumeLayout(false);
-            this.tableLayoutPanel1.ResumeLayout(false);
-            this.tableLayoutPanel1.PerformLayout();
+            this.tblDashboard.ResumeLayout(false);
+            this.tblDashboard.PerformLayout();
             this.pnlHeader.ResumeLayout(false);
             this.pnlHero.ResumeLayout(false);
             this.pnlHero.PerformLayout();
@@ -614,6 +668,8 @@
             this.panel1.PerformLayout();
             this.pnlQuickReport.ResumeLayout(false);
             this.pnlQuickReport.PerformLayout();
+            this.pnlRecentReports.ResumeLayout(false);
+            this.tableLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -632,7 +688,7 @@
         private System.Windows.Forms.Button btnReportIssue;
         private System.Windows.Forms.Button btnEvents;
         private System.Windows.Forms.Button btnRequestStatus;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.TableLayoutPanel tblDashboard;
         private System.Windows.Forms.Panel pnlHeader;
         private System.Windows.Forms.Label lblSubtitle;
         private System.Windows.Forms.Label lblWelcome;
@@ -655,6 +711,10 @@
         private System.Windows.Forms.Label lblQuickEventsTag;
         private System.Windows.Forms.Label lblQuickStatusSub;
         private System.Windows.Forms.Label lblQuickEventsSub;
+        private System.Windows.Forms.Panel pnlRecentReports;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.Label lblRecentReports;
+        private System.Windows.Forms.FlowLayoutPanel flpRecentReports;
     }
 }
 
