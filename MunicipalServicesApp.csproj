@@ -53,11 +53,11 @@
     <Compile Include="Forms\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\ReportIssuesForm.cs">
+    <Compile Include="Forms\ReportIssueForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\ReportIssuesForm.Designer.cs">
-      <DependentUpon>ReportIssuesForm.cs</DependentUpon>
+    <Compile Include="Forms\ReportIssueForm.Designer.cs">
+      <DependentUpon>ReportIssueForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Helpers\UIHelper.cs" />
     <Compile Include="Models\Event.cs" />
@@ -67,6 +67,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ReportIssueForm.resx">
+      <DependentUpon>ReportIssueForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
