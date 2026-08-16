@@ -415,7 +415,7 @@
             this.tblQuickAccess.Name = "tblQuickAccess";
             this.tblQuickAccess.RowCount = 1;
             this.tblQuickAccess.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tblQuickAccess.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tblQuickAccess.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 74F));
             this.tblQuickAccess.Size = new System.Drawing.Size(818, 74);
             this.tblQuickAccess.TabIndex = 3;
             // 
@@ -684,10 +684,6 @@
         private System.Windows.Forms.Label lblVersion;
         private System.Windows.Forms.Label lblBrand;
         private System.Windows.Forms.Label lblBrandLine;
-        private System.Windows.Forms.Button btnDashboard;
-        private System.Windows.Forms.Button btnReportIssue;
-        private System.Windows.Forms.Button btnEvents;
-        private System.Windows.Forms.Button btnRequestStatus;
         private System.Windows.Forms.TableLayoutPanel tblDashboard;
         private System.Windows.Forms.Panel pnlHeader;
         private System.Windows.Forms.Label lblSubtitle;
@@ -715,6 +711,10 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Label lblRecentReports;
         private System.Windows.Forms.FlowLayoutPanel flpRecentReports;
+        private System.Windows.Forms.Button btnDashboard;
+        private System.Windows.Forms.Button btnReportIssue;
+        private System.Windows.Forms.Button btnEvents;
+        private System.Windows.Forms.Button btnRequestStatus;
     }
 }
 
