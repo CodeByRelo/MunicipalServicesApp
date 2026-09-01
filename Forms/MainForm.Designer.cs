@@ -89,9 +89,10 @@
             this.pnlSidebar.Controls.Add(this.tblSidebar);
             this.pnlSidebar.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlSidebar.Location = new System.Drawing.Point(0, 0);
+            this.pnlSidebar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnlSidebar.Name = "pnlSidebar";
-            this.pnlSidebar.Padding = new System.Windows.Forms.Padding(20, 25, 20, 25);
-            this.pnlSidebar.Size = new System.Drawing.Size(230, 711);
+            this.pnlSidebar.Padding = new System.Windows.Forms.Padding(27, 31, 27, 31);
+            this.pnlSidebar.Size = new System.Drawing.Size(307, 875);
             this.pnlSidebar.TabIndex = 0;
             // 
             // tblSidebar
@@ -103,15 +104,16 @@
             this.tblSidebar.Controls.Add(this.flpNavigation, 0, 2);
             this.tblSidebar.Controls.Add(this.lblVersion, 0, 3);
             this.tblSidebar.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tblSidebar.Location = new System.Drawing.Point(20, 25);
+            this.tblSidebar.Location = new System.Drawing.Point(27, 31);
+            this.tblSidebar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tblSidebar.Name = "tblSidebar";
-            this.tblSidebar.Padding = new System.Windows.Forms.Padding(10);
+            this.tblSidebar.Padding = new System.Windows.Forms.Padding(13, 12, 13, 12);
             this.tblSidebar.RowCount = 4;
-            this.tblSidebar.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 100F));
-            this.tblSidebar.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
+            this.tblSidebar.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 123F));
+            this.tblSidebar.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 62F));
             this.tblSidebar.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tblSidebar.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tblSidebar.Size = new System.Drawing.Size(190, 661);
+            this.tblSidebar.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 49F));
+            this.tblSidebar.Size = new System.Drawing.Size(253, 813);
             this.tblSidebar.TabIndex = 0;
             // 
             // pnlBrand
@@ -119,9 +121,10 @@
             this.pnlBrand.Controls.Add(this.lblBrandLine);
             this.pnlBrand.Controls.Add(this.lblBrand);
             this.pnlBrand.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlBrand.Location = new System.Drawing.Point(13, 13);
+            this.pnlBrand.Location = new System.Drawing.Point(17, 16);
+            this.pnlBrand.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnlBrand.Name = "pnlBrand";
-            this.pnlBrand.Size = new System.Drawing.Size(164, 94);
+            this.pnlBrand.Size = new System.Drawing.Size(219, 115);
             this.pnlBrand.TabIndex = 0;
             // 
             // lblBrandLine
@@ -129,9 +132,10 @@
             this.lblBrandLine.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.lblBrandLine.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBrandLine.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.lblBrandLine.Location = new System.Drawing.Point(0, 74);
+            this.lblBrandLine.Location = new System.Drawing.Point(0, 90);
+            this.lblBrandLine.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBrandLine.Name = "lblBrandLine";
-            this.lblBrandLine.Size = new System.Drawing.Size(164, 20);
+            this.lblBrandLine.Size = new System.Drawing.Size(219, 25);
             this.lblBrandLine.TabIndex = 2;
             this.lblBrandLine.Text = "_________________________________";
             // 
@@ -141,8 +145,9 @@
             this.lblBrand.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBrand.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
             this.lblBrand.Location = new System.Drawing.Point(0, 0);
+            this.lblBrand.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBrand.Name = "lblBrand";
-            this.lblBrand.Size = new System.Drawing.Size(164, 57);
+            this.lblBrand.Size = new System.Drawing.Size(219, 70);
             this.lblBrand.TabIndex = 0;
             this.lblBrand.Text = "MUNICIPAL Services";
             this.lblBrand.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -155,9 +160,10 @@
             this.flpNavigation.Controls.Add(this.btnRequestStatus);
             this.flpNavigation.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flpNavigation.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flpNavigation.Location = new System.Drawing.Point(13, 163);
+            this.flpNavigation.Location = new System.Drawing.Point(17, 201);
+            this.flpNavigation.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.flpNavigation.Name = "flpNavigation";
-            this.flpNavigation.Size = new System.Drawing.Size(164, 445);
+            this.flpNavigation.Size = new System.Drawing.Size(219, 547);
             this.flpNavigation.TabIndex = 1;
             this.flpNavigation.WrapContents = false;
             // 
@@ -169,11 +175,11 @@
             this.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDashboard.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDashboard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(122)))), ((int)(((byte)(0)))));
-            this.btnDashboard.Location = new System.Drawing.Point(3, 3);
-            this.btnDashboard.Margin = new System.Windows.Forms.Padding(3, 3, 3, 10);
+            this.btnDashboard.Location = new System.Drawing.Point(4, 4);
+            this.btnDashboard.Margin = new System.Windows.Forms.Padding(4, 4, 4, 12);
             this.btnDashboard.Name = "btnDashboard";
-            this.btnDashboard.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnDashboard.Size = new System.Drawing.Size(157, 45);
+            this.btnDashboard.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
+            this.btnDashboard.Size = new System.Drawing.Size(209, 55);
             this.btnDashboard.TabIndex = 0;
             this.btnDashboard.Text = "Dashboard";
             this.btnDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -189,11 +195,11 @@
             this.btnReportIssue.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReportIssue.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReportIssue.ForeColor = System.Drawing.Color.White;
-            this.btnReportIssue.Location = new System.Drawing.Point(3, 61);
-            this.btnReportIssue.Margin = new System.Windows.Forms.Padding(3, 3, 3, 10);
+            this.btnReportIssue.Location = new System.Drawing.Point(4, 75);
+            this.btnReportIssue.Margin = new System.Windows.Forms.Padding(4, 4, 4, 12);
             this.btnReportIssue.Name = "btnReportIssue";
-            this.btnReportIssue.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnReportIssue.Size = new System.Drawing.Size(157, 45);
+            this.btnReportIssue.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
+            this.btnReportIssue.Size = new System.Drawing.Size(209, 55);
             this.btnReportIssue.TabIndex = 1;
             this.btnReportIssue.Text = "Report Issue";
             this.btnReportIssue.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -210,11 +216,11 @@
             this.btnEvents.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEvents.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEvents.ForeColor = System.Drawing.Color.White;
-            this.btnEvents.Location = new System.Drawing.Point(3, 119);
-            this.btnEvents.Margin = new System.Windows.Forms.Padding(3, 3, 3, 10);
+            this.btnEvents.Location = new System.Drawing.Point(4, 146);
+            this.btnEvents.Margin = new System.Windows.Forms.Padding(4, 4, 4, 12);
             this.btnEvents.Name = "btnEvents";
-            this.btnEvents.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnEvents.Size = new System.Drawing.Size(157, 45);
+            this.btnEvents.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
+            this.btnEvents.Size = new System.Drawing.Size(209, 55);
             this.btnEvents.TabIndex = 2;
             this.btnEvents.Text = "Local Events";
             this.btnEvents.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -230,11 +236,11 @@
             this.btnRequestStatus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRequestStatus.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRequestStatus.ForeColor = System.Drawing.Color.White;
-            this.btnRequestStatus.Location = new System.Drawing.Point(3, 177);
-            this.btnRequestStatus.Margin = new System.Windows.Forms.Padding(3, 3, 3, 10);
+            this.btnRequestStatus.Location = new System.Drawing.Point(4, 217);
+            this.btnRequestStatus.Margin = new System.Windows.Forms.Padding(4, 4, 4, 12);
             this.btnRequestStatus.Name = "btnRequestStatus";
-            this.btnRequestStatus.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnRequestStatus.Size = new System.Drawing.Size(157, 45);
+            this.btnRequestStatus.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
+            this.btnRequestStatus.Size = new System.Drawing.Size(209, 55);
             this.btnRequestStatus.TabIndex = 3;
             this.btnRequestStatus.Text = "Request Status";
             this.btnRequestStatus.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -247,9 +253,10 @@
             this.lblVersion.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblVersion.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblVersion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
-            this.lblVersion.Location = new System.Drawing.Point(13, 611);
+            this.lblVersion.Location = new System.Drawing.Point(17, 752);
+            this.lblVersion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblVersion.Name = "lblVersion";
-            this.lblVersion.Size = new System.Drawing.Size(164, 40);
+            this.lblVersion.Size = new System.Drawing.Size(219, 49);
             this.lblVersion.TabIndex = 2;
             this.lblVersion.Text = "ST10535591: Version 1.0";
             this.lblVersion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -259,10 +266,11 @@
             this.pnlContent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(242)))));
             this.pnlContent.Controls.Add(this.tblDashboard);
             this.pnlContent.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlContent.Location = new System.Drawing.Point(230, 0);
+            this.pnlContent.Location = new System.Drawing.Point(307, 0);
+            this.pnlContent.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnlContent.Name = "pnlContent";
-            this.pnlContent.Padding = new System.Windows.Forms.Padding(35, 30, 35, 30);
-            this.pnlContent.Size = new System.Drawing.Size(894, 711);
+            this.pnlContent.Padding = new System.Windows.Forms.Padding(47, 37, 47, 37);
+            this.pnlContent.Size = new System.Drawing.Size(1192, 875);
             this.pnlContent.TabIndex = 1;
             // 
             // tblDashboard
@@ -277,15 +285,16 @@
             this.tblDashboard.Controls.Add(this.pnlRecentReports, 0, 4);
             this.tblDashboard.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tblDashboard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.tblDashboard.Location = new System.Drawing.Point(35, 30);
+            this.tblDashboard.Location = new System.Drawing.Point(47, 37);
+            this.tblDashboard.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tblDashboard.Name = "tblDashboard";
             this.tblDashboard.RowCount = 5;
-            this.tblDashboard.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 80F));
-            this.tblDashboard.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 130F));
-            this.tblDashboard.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 45F));
-            this.tblDashboard.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 80F));
+            this.tblDashboard.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 98F));
+            this.tblDashboard.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 160F));
+            this.tblDashboard.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 55F));
+            this.tblDashboard.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 98F));
             this.tblDashboard.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tblDashboard.Size = new System.Drawing.Size(824, 651);
+            this.tblDashboard.Size = new System.Drawing.Size(1098, 801);
             this.tblDashboard.TabIndex = 0;
             // 
             // pnlHeader
@@ -293,18 +302,20 @@
             this.pnlHeader.Controls.Add(this.lblSubtitle);
             this.pnlHeader.Controls.Add(this.lblWelcome);
             this.pnlHeader.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlHeader.Location = new System.Drawing.Point(3, 3);
+            this.pnlHeader.Location = new System.Drawing.Point(4, 4);
+            this.pnlHeader.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnlHeader.Name = "pnlHeader";
-            this.pnlHeader.Size = new System.Drawing.Size(818, 74);
+            this.pnlHeader.Size = new System.Drawing.Size(1090, 90);
             this.pnlHeader.TabIndex = 0;
             // 
             // lblSubtitle
             // 
             this.lblSubtitle.Dock = System.Windows.Forms.DockStyle.Top;
             this.lblSubtitle.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSubtitle.Location = new System.Drawing.Point(0, 40);
+            this.lblSubtitle.Location = new System.Drawing.Point(0, 49);
+            this.lblSubtitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSubtitle.Name = "lblSubtitle";
-            this.lblSubtitle.Size = new System.Drawing.Size(818, 25);
+            this.lblSubtitle.Size = new System.Drawing.Size(1090, 31);
             this.lblSubtitle.TabIndex = 1;
             this.lblSubtitle.Text = " What would you like to do today?";
             // 
@@ -314,8 +325,9 @@
             this.lblWelcome.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWelcome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
             this.lblWelcome.Location = new System.Drawing.Point(0, 0);
+            this.lblWelcome.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblWelcome.Name = "lblWelcome";
-            this.lblWelcome.Size = new System.Drawing.Size(818, 40);
+            this.lblWelcome.Size = new System.Drawing.Size(1090, 49);
             this.lblWelcome.TabIndex = 0;
             this.lblWelcome.Text = "Welcome to Municipal Services!";
             // 
@@ -327,10 +339,11 @@
             this.pnlHero.Controls.Add(this.lblHeroTitle);
             this.pnlHero.Controls.Add(this.lblHeroTag);
             this.pnlHero.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlHero.Location = new System.Drawing.Point(3, 83);
+            this.pnlHero.Location = new System.Drawing.Point(4, 102);
+            this.pnlHero.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnlHero.Name = "pnlHero";
-            this.pnlHero.Padding = new System.Windows.Forms.Padding(25, 20, 25, 20);
-            this.pnlHero.Size = new System.Drawing.Size(818, 124);
+            this.pnlHero.Padding = new System.Windows.Forms.Padding(33, 25, 33, 25);
+            this.pnlHero.Size = new System.Drawing.Size(1090, 152);
             this.pnlHero.TabIndex = 1;
             // 
             // btnHeroReport
@@ -342,9 +355,10 @@
             this.btnHeroReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHeroReport.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHeroReport.ForeColor = System.Drawing.Color.White;
-            this.btnHeroReport.Location = new System.Drawing.Point(643, 75);
+            this.btnHeroReport.Location = new System.Drawing.Point(857, 93);
+            this.btnHeroReport.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnHeroReport.Name = "btnHeroReport";
-            this.btnHeroReport.Size = new System.Drawing.Size(150, 29);
+            this.btnHeroReport.Size = new System.Drawing.Size(200, 34);
             this.btnHeroReport.TabIndex = 3;
             this.btnHeroReport.Text = "Report an Issue  →";
             this.btnHeroReport.UseVisualStyleBackColor = false;
@@ -355,11 +369,11 @@
             this.lblHeroDescription.AutoSize = true;
             this.lblHeroDescription.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblHeroDescription.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHeroDescription.Location = new System.Drawing.Point(25, 75);
-            this.lblHeroDescription.Margin = new System.Windows.Forms.Padding(3, 10, 3, 0);
+            this.lblHeroDescription.Location = new System.Drawing.Point(33, 93);
+            this.lblHeroDescription.Margin = new System.Windows.Forms.Padding(4, 12, 4, 0);
             this.lblHeroDescription.Name = "lblHeroDescription";
-            this.lblHeroDescription.Padding = new System.Windows.Forms.Padding(0, 10, 0, 0);
-            this.lblHeroDescription.Size = new System.Drawing.Size(460, 27);
+            this.lblHeroDescription.Padding = new System.Windows.Forms.Padding(0, 12, 0, 0);
+            this.lblHeroDescription.Size = new System.Drawing.Size(605, 35);
             this.lblHeroDescription.TabIndex = 2;
             this.lblHeroDescription.Text = "Report a municipal issue and help us keep your community running smoothly.";
             // 
@@ -369,9 +383,10 @@
             this.lblHeroTitle.Dock = System.Windows.Forms.DockStyle.Top;
             this.lblHeroTitle.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHeroTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.lblHeroTitle.Location = new System.Drawing.Point(25, 45);
+            this.lblHeroTitle.Location = new System.Drawing.Point(33, 56);
+            this.lblHeroTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblHeroTitle.Name = "lblHeroTitle";
-            this.lblHeroTitle.Size = new System.Drawing.Size(223, 30);
+            this.lblHeroTitle.Size = new System.Drawing.Size(289, 37);
             this.lblHeroTitle.TabIndex = 1;
             this.lblHeroTitle.Text = "Something not right?";
             // 
@@ -382,9 +397,10 @@
             this.lblHeroTag.Dock = System.Windows.Forms.DockStyle.Top;
             this.lblHeroTag.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHeroTag.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(122)))), ((int)(((byte)(0)))));
-            this.lblHeroTag.Location = new System.Drawing.Point(25, 20);
+            this.lblHeroTag.Location = new System.Drawing.Point(33, 25);
+            this.lblHeroTag.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblHeroTag.Name = "lblHeroTag";
-            this.lblHeroTag.Size = new System.Drawing.Size(768, 25);
+            this.lblHeroTag.Size = new System.Drawing.Size(1024, 31);
             this.lblHeroTag.TabIndex = 0;
             this.lblHeroTag.Text = "REPORT AN ISSUE!";
             // 
@@ -394,9 +410,10 @@
             this.lblQuickAccess.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblQuickAccess.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblQuickAccess.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.lblQuickAccess.Location = new System.Drawing.Point(3, 210);
+            this.lblQuickAccess.Location = new System.Drawing.Point(4, 258);
+            this.lblQuickAccess.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblQuickAccess.Name = "lblQuickAccess";
-            this.lblQuickAccess.Size = new System.Drawing.Size(818, 45);
+            this.lblQuickAccess.Size = new System.Drawing.Size(1090, 55);
             this.lblQuickAccess.TabIndex = 2;
             this.lblQuickAccess.Text = "QUICK ACCESS";
             this.lblQuickAccess.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -411,12 +428,13 @@
             this.tblQuickAccess.Controls.Add(this.panel1, 1, 0);
             this.tblQuickAccess.Controls.Add(this.pnlQuickReport, 0, 0);
             this.tblQuickAccess.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tblQuickAccess.Location = new System.Drawing.Point(3, 258);
+            this.tblQuickAccess.Location = new System.Drawing.Point(4, 317);
+            this.tblQuickAccess.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tblQuickAccess.Name = "tblQuickAccess";
             this.tblQuickAccess.RowCount = 1;
             this.tblQuickAccess.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tblQuickAccess.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 74F));
-            this.tblQuickAccess.Size = new System.Drawing.Size(818, 74);
+            this.tblQuickAccess.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 91F));
+            this.tblQuickAccess.Size = new System.Drawing.Size(1090, 90);
             this.tblQuickAccess.TabIndex = 3;
             // 
             // panel2
@@ -428,10 +446,11 @@
             this.panel2.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Enabled = false;
-            this.panel2.Location = new System.Drawing.Point(547, 3);
+            this.panel2.Location = new System.Drawing.Point(730, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Padding = new System.Windows.Forms.Padding(10);
-            this.panel2.Size = new System.Drawing.Size(268, 68);
+            this.panel2.Padding = new System.Windows.Forms.Padding(13, 12, 13, 12);
+            this.panel2.Size = new System.Drawing.Size(356, 82);
             this.panel2.TabIndex = 2;
             // 
             // lblQuickStatusSub
@@ -441,9 +460,10 @@
             this.lblQuickStatusSub.Dock = System.Windows.Forms.DockStyle.Top;
             this.lblQuickStatusSub.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblQuickStatusSub.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.lblQuickStatusSub.Location = new System.Drawing.Point(10, 47);
+            this.lblQuickStatusSub.Location = new System.Drawing.Point(13, 58);
+            this.lblQuickStatusSub.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblQuickStatusSub.Name = "lblQuickStatusSub";
-            this.lblQuickStatusSub.Size = new System.Drawing.Size(184, 17);
+            this.lblQuickStatusSub.Size = new System.Drawing.Size(239, 23);
             this.lblQuickStatusSub.TabIndex = 3;
             this.lblQuickStatusSub.Text = "Track your submitted requests";
             // 
@@ -454,9 +474,10 @@
             this.lblQuickStatus.Dock = System.Windows.Forms.DockStyle.Top;
             this.lblQuickStatus.Font = new System.Drawing.Font("Bernard MT Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblQuickStatus.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.lblQuickStatus.Location = new System.Drawing.Point(10, 22);
+            this.lblQuickStatus.Location = new System.Drawing.Point(13, 27);
+            this.lblQuickStatus.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblQuickStatus.Name = "lblQuickStatus";
-            this.lblQuickStatus.Size = new System.Drawing.Size(129, 25);
+            this.lblQuickStatus.Size = new System.Drawing.Size(167, 31);
             this.lblQuickStatus.TabIndex = 2;
             this.lblQuickStatus.Text = "Coming Soon!!!";
             this.lblQuickStatus.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -468,9 +489,10 @@
             this.lblQuickStatusTag.Dock = System.Windows.Forms.DockStyle.Top;
             this.lblQuickStatusTag.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblQuickStatusTag.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(122)))), ((int)(((byte)(0)))));
-            this.lblQuickStatusTag.Location = new System.Drawing.Point(10, 10);
+            this.lblQuickStatusTag.Location = new System.Drawing.Point(13, 12);
+            this.lblQuickStatusTag.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblQuickStatusTag.Name = "lblQuickStatusTag";
-            this.lblQuickStatusTag.Size = new System.Drawing.Size(69, 12);
+            this.lblQuickStatusTag.Size = new System.Drawing.Size(89, 15);
             this.lblQuickStatusTag.TabIndex = 0;
             this.lblQuickStatusTag.Text = "QUICK ACCESS";
             this.lblQuickStatusTag.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
@@ -484,11 +506,11 @@
             this.panel1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Enabled = false;
-            this.panel1.Location = new System.Drawing.Point(275, 3);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 3, 10, 3);
+            this.panel1.Location = new System.Drawing.Point(367, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 13, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Padding = new System.Windows.Forms.Padding(10);
-            this.panel1.Size = new System.Drawing.Size(259, 68);
+            this.panel1.Padding = new System.Windows.Forms.Padding(13, 12, 13, 12);
+            this.panel1.Size = new System.Drawing.Size(346, 82);
             this.panel1.TabIndex = 1;
             // 
             // lblQuickEventsSub
@@ -498,9 +520,10 @@
             this.lblQuickEventsSub.Dock = System.Windows.Forms.DockStyle.Top;
             this.lblQuickEventsSub.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblQuickEventsSub.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.lblQuickEventsSub.Location = new System.Drawing.Point(10, 47);
+            this.lblQuickEventsSub.Location = new System.Drawing.Point(13, 58);
+            this.lblQuickEventsSub.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblQuickEventsSub.Name = "lblQuickEventsSub";
-            this.lblQuickEventsSub.Size = new System.Drawing.Size(204, 17);
+            this.lblQuickEventsSub.Size = new System.Drawing.Size(266, 23);
             this.lblQuickEventsSub.TabIndex = 3;
             this.lblQuickEventsSub.Text = "Discover what\'s happening locally";
             // 
@@ -511,9 +534,10 @@
             this.lblQuickEvents.Dock = System.Windows.Forms.DockStyle.Top;
             this.lblQuickEvents.Font = new System.Drawing.Font("Bernard MT Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblQuickEvents.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.lblQuickEvents.Location = new System.Drawing.Point(10, 22);
+            this.lblQuickEvents.Location = new System.Drawing.Point(13, 27);
+            this.lblQuickEvents.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblQuickEvents.Name = "lblQuickEvents";
-            this.lblQuickEvents.Size = new System.Drawing.Size(129, 25);
+            this.lblQuickEvents.Size = new System.Drawing.Size(167, 31);
             this.lblQuickEvents.TabIndex = 1;
             this.lblQuickEvents.Text = "Coming Soon!!!";
             this.lblQuickEvents.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -525,9 +549,10 @@
             this.lblQuickEventsTag.Dock = System.Windows.Forms.DockStyle.Top;
             this.lblQuickEventsTag.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblQuickEventsTag.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(122)))), ((int)(((byte)(0)))));
-            this.lblQuickEventsTag.Location = new System.Drawing.Point(10, 10);
+            this.lblQuickEventsTag.Location = new System.Drawing.Point(13, 12);
+            this.lblQuickEventsTag.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblQuickEventsTag.Name = "lblQuickEventsTag";
-            this.lblQuickEventsTag.Size = new System.Drawing.Size(69, 12);
+            this.lblQuickEventsTag.Size = new System.Drawing.Size(89, 15);
             this.lblQuickEventsTag.TabIndex = 0;
             this.lblQuickEventsTag.Text = "QUICK ACCESS";
             this.lblQuickEventsTag.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
@@ -540,11 +565,11 @@
             this.pnlQuickReport.Controls.Add(this.lblQuickReportTag);
             this.pnlQuickReport.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.pnlQuickReport.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlQuickReport.Location = new System.Drawing.Point(3, 3);
-            this.pnlQuickReport.Margin = new System.Windows.Forms.Padding(3, 3, 10, 3);
+            this.pnlQuickReport.Location = new System.Drawing.Point(4, 4);
+            this.pnlQuickReport.Margin = new System.Windows.Forms.Padding(4, 4, 13, 4);
             this.pnlQuickReport.Name = "pnlQuickReport";
-            this.pnlQuickReport.Padding = new System.Windows.Forms.Padding(10);
-            this.pnlQuickReport.Size = new System.Drawing.Size(259, 68);
+            this.pnlQuickReport.Padding = new System.Windows.Forms.Padding(13, 12, 13, 12);
+            this.pnlQuickReport.Size = new System.Drawing.Size(346, 82);
             this.pnlQuickReport.TabIndex = 0;
             this.pnlQuickReport.Click += new System.EventHandler(this.pnlQuickReport_Click);
             // 
@@ -555,9 +580,10 @@
             this.lblQuickReportSub.Dock = System.Windows.Forms.DockStyle.Top;
             this.lblQuickReportSub.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblQuickReportSub.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.lblQuickReportSub.Location = new System.Drawing.Point(10, 47);
+            this.lblQuickReportSub.Location = new System.Drawing.Point(13, 58);
+            this.lblQuickReportSub.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblQuickReportSub.Name = "lblQuickReportSub";
-            this.lblQuickReportSub.Size = new System.Drawing.Size(165, 17);
+            this.lblQuickReportSub.Size = new System.Drawing.Size(216, 23);
             this.lblQuickReportSub.TabIndex = 2;
             this.lblQuickReportSub.Text = "Tell us what\'s happening →";
             this.lblQuickReportSub.Click += new System.EventHandler(this.lblQuickReportSub_Click);
@@ -569,11 +595,12 @@
             this.lblQuickReport.Dock = System.Windows.Forms.DockStyle.Top;
             this.lblQuickReport.Font = new System.Drawing.Font("Bernard MT Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblQuickReport.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.lblQuickReport.Location = new System.Drawing.Point(10, 22);
+            this.lblQuickReport.Location = new System.Drawing.Point(13, 27);
+            this.lblQuickReport.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblQuickReport.Name = "lblQuickReport";
-            this.lblQuickReport.Size = new System.Drawing.Size(134, 25);
+            this.lblQuickReport.Size = new System.Drawing.Size(182, 31);
             this.lblQuickReport.TabIndex = 1;
-            this.lblQuickReport.Text = "Report an Issue";
+            this.lblQuickReport.Text = "Report an Issue.";
             this.lblQuickReport.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblQuickReportTag
@@ -583,9 +610,10 @@
             this.lblQuickReportTag.Dock = System.Windows.Forms.DockStyle.Top;
             this.lblQuickReportTag.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblQuickReportTag.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(122)))), ((int)(((byte)(0)))));
-            this.lblQuickReportTag.Location = new System.Drawing.Point(10, 10);
+            this.lblQuickReportTag.Location = new System.Drawing.Point(13, 12);
+            this.lblQuickReportTag.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblQuickReportTag.Name = "lblQuickReportTag";
-            this.lblQuickReportTag.Size = new System.Drawing.Size(69, 12);
+            this.lblQuickReportTag.Size = new System.Drawing.Size(89, 15);
             this.lblQuickReportTag.TabIndex = 0;
             this.lblQuickReportTag.Text = "QUICK ACCESS";
             this.lblQuickReportTag.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
@@ -594,9 +622,10 @@
             // 
             this.pnlRecentReports.Controls.Add(this.tableLayoutPanel1);
             this.pnlRecentReports.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlRecentReports.Location = new System.Drawing.Point(3, 338);
+            this.pnlRecentReports.Location = new System.Drawing.Point(4, 415);
+            this.pnlRecentReports.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnlRecentReports.Name = "pnlRecentReports";
-            this.pnlRecentReports.Size = new System.Drawing.Size(818, 310);
+            this.pnlRecentReports.Size = new System.Drawing.Size(1090, 382);
             this.pnlRecentReports.TabIndex = 4;
             // 
             // tableLayoutPanel1
@@ -607,11 +636,12 @@
             this.tableLayoutPanel1.Controls.Add(this.flpRecentReports, 0, 1);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(818, 310);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1090, 382);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // lblRecentReports
@@ -619,9 +649,10 @@
             this.lblRecentReports.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblRecentReports.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRecentReports.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.lblRecentReports.Location = new System.Drawing.Point(3, 0);
+            this.lblRecentReports.Location = new System.Drawing.Point(4, 0);
+            this.lblRecentReports.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRecentReports.Name = "lblRecentReports";
-            this.lblRecentReports.Size = new System.Drawing.Size(812, 45);
+            this.lblRecentReports.Size = new System.Drawing.Size(1082, 55);
             this.lblRecentReports.TabIndex = 0;
             this.lblRecentReports.Text = "RECENT REPORTS";
             this.lblRecentReports.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -631,22 +662,24 @@
             this.flpRecentReports.AutoScroll = true;
             this.flpRecentReports.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flpRecentReports.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flpRecentReports.Location = new System.Drawing.Point(3, 48);
+            this.flpRecentReports.Location = new System.Drawing.Point(4, 59);
+            this.flpRecentReports.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.flpRecentReports.Name = "flpRecentReports";
-            this.flpRecentReports.Size = new System.Drawing.Size(812, 259);
+            this.flpRecentReports.Size = new System.Drawing.Size(1082, 319);
             this.flpRecentReports.TabIndex = 1;
             this.flpRecentReports.WrapContents = false;
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(242)))));
-            this.ClientSize = new System.Drawing.Size(1124, 711);
+            this.ClientSize = new System.Drawing.Size(1499, 875);
             this.Controls.Add(this.pnlContent);
             this.Controls.Add(this.pnlSidebar);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(1100, 750);
+            this.MinimumSize = new System.Drawing.Size(1461, 912);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
